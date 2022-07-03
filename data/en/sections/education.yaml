@@ -1,0 +1,32 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.E in Computer Science and Engineering
+  icon: fa-microscope
+  timeframe: 2017-2021
+  institution:
+    name: Ramaiah Institute of Technology
+    url: "http://www.msrit.edu/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 9.65
+    outOf: 10
+- name: Pre-University Education
+  icon: fa-graduation-cap
+  timeframe: 2015-2017
+  institution:
+    name: Chethana PU College
+    url: "https://en.wikipedia.org/wiki/Chethana_PU_College"
+  grade: #(optional)
+    scale: Percentage
+    achieved: 96.5
+    outOf: 100

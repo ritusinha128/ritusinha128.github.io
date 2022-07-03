@@ -1,0 +1,39 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Associate Software Engineer
+# your company information
+company:
+  name: Lowe's India
+  url: "https://lowes.co.in/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'As an avid lover of logic puzzles and the creative thinking that goes into them , I did not realize that this is what computer scientists do every day. Once I did, I was hooked, which led to the selection of my profession. I enjoy pratice more than theory and believe it to be the best method of learning.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/ritusinha128"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
