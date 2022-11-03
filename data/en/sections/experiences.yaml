@@ -11,6 +11,22 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Georgia Institute of Technology
+    url: "https://www.gatech.edu/"
+    location: Atlanta
+    # company overview
+  positions:
+  - designation: Graduate Assistant
+    start: August 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Managed the day-to-day operations of the lounge alongside the Graduate Student Advisor
+    - Strengthened communication and engagement skills by working across recreational environments
+    - Organized and executed events for students recreation purposes in the lounge
+    
+- company:
     name: Lowe's India
     url: "https://lowes.co.in/"
     location: Bangalore
@@ -19,12 +35,14 @@ experiences:
   - designation: Associate Software Engineer
     start: August 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: July 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Working under the Data Analytics And Computational Intelligence Team
-    - Developed a system to enable store owners to gain better business insight and estimate business trends
-    - Identified major demand influencing factors, draggers and drivers, and provided analysis of current performance
+    - Built Java and Kotlin microservices using Micronaut which enabled stores to analyze various market trends and ensure better sales, implementing more than 20 features
+    - Created continuous integration and deployment pipelines for 2 microservices using Jenkins and ArgoCD enabling automation of builds
+    - Computed proprietary absolute and relative ranking mechanisms for various Lowe’s stores and departments
+    - Assessed and validated the performance of the system during high request traffic using K6, InfluxDB ,and Grafana
 
 - company:
     name: Samajh.AI
@@ -35,9 +53,9 @@ experiences:
     start: May 2020
     end: July 2020
     responsibilities:
-    - Developed a portal where users images are identified and grouped using facial recognition and clustering algorithms
-    - Deployed the application and model in the cloud using AWS EC2, CodeBuild, S3 and Lambda
-
+    - Designed a portal using the MEVN stack which enabled users to get their specific images from social gatherings and deployed the system in the cloud using AWS EC2 and Lambda
+    - Developed the facial recognition and clustering models using MXNet for the portal, achieving 92% accuracy on sample data
+    
 - company:
     name: Indian Institute of Science
     url : "https://iisc.ac.in/"
@@ -47,6 +65,5 @@ experiences:
     start: July 2019
     end: August 2019
     responsibilities:
-    - Worked on a deep learning reinforcement system for power control in wireless multicast networks using Python and Tensorflow
-    - Understood the intricacies and mechanism of deep reinforcement learning
-    - Developed system for result visualization and analysis
+    - Contributed to the development of a deep reinforcement learning system (Adaptive constrained Deep Q Network) for power control in multicast wireless networks
+    - Visualized and recorded performance results for 20 users of the system with varying user parameters (users, file size, transmission rate, bandwidth) for further analysis and model tuning
