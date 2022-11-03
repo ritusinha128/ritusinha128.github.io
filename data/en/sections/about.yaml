@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Associate Software Engineer
+designation: Master's in Computer Science student
 # your company information
 company:
-  name: Lowe's India
-  url: "https://lowes.co.in/"
+  name: Georgia Institute of Technology
+  url: "https://www.gatech.edu/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
